@@ -1,0 +1,172 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "Zyrex Sky 232 2021",
+        "image": "https://www.yatekno.com/wp-content/uploads/2021/03/Zyrex-Sky-232-2021.jpg",
+        "harga": "Rp. 4,2 jutaan",
+        "spec": {
+            "Layar": "IPS 14 inci, resolusi 1920 x 1080 piksel",
+            "Prosesor": "Intel Celeron N3350",
+            "Grafis": "Intel HD Graphics",
+            "RAM": "4GB LPDDR4",
+            "Penyimpanan": "256GB SSD + 64GB"
+        },
+        "desc": "Laptop Terbaru ini hadir dengan bentuk yang sangat menarik dan elegan karena pembuatannya menggunakan bahan terbaik berupa logam paling berkualitas. Selain itu, laptop yang satu ini juga tergolong ringan sehingga sangat praktis ketika dibawa kemanapun. Layarnya sendiri memiliki ukuran sekitar 14 inci dengan lebar 768 x 1366 pixel yang cukup memuaskan untuk melakukan berbagai aktivitas di dalamya. Selain itu, layar tersebut juga telah dilengkapi sistem LCD LED dengan teknologi TFT. Baterai dalam laptop ini juga tergolong besar karena memiliki kapasitas sekitar 8100 mAh yang dapat bertahan cukup lama. Bahkan, kamu hanya perlu menunggu sekitar satu jam saja dalam pengisian baterai tersebut sampai menjadi penuh."
+      },
+      {
+        "id": 2,
+        "name": "Lenovo IdeaPad Slim 1 11IGL05",
+        "image": "https://www.yatekno.com/wp-content/uploads/2021/04/Lenovo-IdeaPad-Slim-1-11IGL05.jpg",
+        "harga": "Rp. 4,1 jutaan",
+        "spec": {
+            "Layar": "IPS 14 inci, resolusi 1920 x 1080 piksel",
+            "Prosesor": "Intel Celeron N4020",
+            "Grafis": "Intel HD Graphics",
+            "RAM": "4GB DDR4",
+            "Penyimpanan": "64GB"
+        },
+        "desc": "Salah satu produk Lenovo ini hadir prosesor Intel Celeron N4020. Selain itu laptop ini juga dilengkapi dengan RAM berkapasitas 4GB DDR4 sehingga membuat kamu bisa menunjang kegiatan office dengan lancar. Laptop ini telah menggunakan sistem Window 10 sehingga memiliki tampilan yang jauh lebih menarik. Kamu dapat menggunakan laptop dengan tampilan lebih keren dalam setiap software yang digunakan di dalamnya. Selain itu, layar dalam laptop ini juga telah dilengkapi dengan sistem HD TN yang cukup baik. Kemudian layarnya juga memiliki resolusi 768 x 1366 pixel yang dapat membuat mata lebih nyaman ketika melakukan berbagai tugas online."
+      },
+      {
+        "id": 3,
+        "name": "ACER Aspire 3 A314-35",
+        "image": "https://www.yatekno.com/wp-content/uploads/2021/01/ACER-Aspire-3-A314-35-Yatekno.jpg",
+        "harga": "Rp. 5,2 jutaan",
+        "spec": {
+            "Layar": "IPS 14 inci, resolusi 1920 x 1080 piksel",
+            "Prosesor": "Intel Celeron N5100",
+            "Grafis": "Intel UHD Graphics",
+            "RAM": "4GB DDR4",
+            "Penyimpanan": "256GB SSD"
+        },
+        "desc": "Laptop yang satu ini diproduksi dengan sebuah prosesor terbaik bernama Intel Celeron N5100. Selain itu, terdapat pula Microsoft Office 2019 yang telah terpasang di dalamnya sehingga memudahkan kamu untuk menjalani berbagai aktivitas belajar online. Laptop ini juga telah dilengkapi dengan sistem Asus Comfy View pada layarnya yang akan membuat mata tidak mudah lelah. Kamu dapat melakukan berbagai aktivitas di laptop dalam waktu yang cukup lama tanpa merasa lelah setelah selesai menggunakannya. Terdapat pula RAM dengan kapasitas sebesar 4GB yang cukup luas untuk menyimpan puluhan hingga ratusan data. Laptop ini bahkan memiliki kecepatan hingga 2400 MHz yang sangat membantu kamu ketika melakukan Zoom Meeting ataupun Browsing berbagai hal di dalamnya."
+      },
+      {
+        "id": 4,
+        "name": "ACER Aspire 5 A515-45",
+        "image": "https://www.yatekno.com/wp-content/uploads/2021/01/ACER-Aspire-5-A515-45-Yatekno.jpg",
+        "harga": "Rp. 7,3 jutaan",
+        "spec": {
+            "Layar": "IPS 15.6 inci, resolusi 1920 x 1080 piksel",
+            "Prosesor": "AMD Ryzen 3 5300U",
+            "Grafis": "AMD Radeon Graphics",
+            "RAM": "8GB DDR4",
+            "Penyimpanan": "512GB SSD"
+        },
+        "desc": "Laptop Terbaru ini memiliki ukuran sekitar 15.6 inci yang cukup memuaskan untuk melihat berbagai konten dari internet. Lebarnya layar juga mampu memberikan tampilan jernih ketika kamu akan mengerjakan berbagai tugas di dalamnya. Produk dari Acer ini juga memiliki sebuah prosesor bernama AMD Ryzen 5 5500U yang memiliki kecepatan hingga 2.1 GHz. Hal tersebut tentu saja memudahkan kamu yang ingin menikmati internetan melalui laptop ini. Kapasitas baterainya mencapai 4319 mAh yang dapat digunakan hingga 8 jam lamanya untuk melakukan berbagai aktivitas di dalamnya. Sehingga laptop ini menjadi salah satu solusi bagi kamu yang memiliki banyak bisnis atau tugas secara online."
+      },
+      {
+        "id": 5,
+        "name": "HP 250 G8",
+        "image": "https://www.yatekno.com/wp-content/uploads/2021/04/HP-250-G8.jpg",
+        "harga": "Rp. 6,9 jutaan",
+        "spec": {
+            "Layar": "IPS 15.6 inci, resolusi 1366 x 768 piksel",
+            "Prosesor": "Intel Core i3 1115G4",
+            "Grafis": "Intel UHD Graphics",
+            "RAM": "4GB DDR4",
+            "Penyimpanan": "512GB SSD"
+        },
+        "desc": "Laptop yang satu ini hadir dengan ukuran layar sangat luas yakni 15 inci dengan lebar 768 x 1366 pixel. Keunggulan dari layarnya ini tentu saja dapat membuat kamu nyaman saat melihat berbagai tampilan di dalam laptop tersebut. Kamu juga tidak perlu khawatir karena laptop yang satu ini hadir dengan sistem terbaru yakni Window 10. Sistem tersebut tentu saja memudahkan kamu agar tidak perlu melakukan upgrade lagi karena sudah memiliki berbagai fitur terbaru di dalamnya. Laptop tersebut juga telah dilengkapi dengan sebuah prosesor terbaik yang memiliki Intel Turbo Boost Technology di dalamnya. Teknologi dalam prosesor ini dapat membantu kelancaran seluruh aktivitas yang kamu lakukan di laptop tersebut."
+      },
+      {
+        "id": 6,
+        "name": "Lenovo IdeaPad Duet 3i",
+        "image": "https://www.yatekno.com/wp-content/uploads/2021/04/Lenovo-IdeaPad-Duet-3i.jpg",
+        "harga": "Rp. 7,3 jutaan",
+        "spec": {
+            "Layar": "IPS 10.3 inci, resolusi 1920 x 1200 piksel",
+            "Prosesor": "Intel Pentium Silver N5030",
+            "Grafis": "Intel UHD Graphics 605",
+            "RAM": "8GB DDR4",
+            "Penyimpanan": "256GB eMMC"
+        },
+        "desc": "Laptop yang satu ini hadir degan konektivitas bluetooth yang terhubung antara layar dan bagian keyboardnya. Kamu bahkan dapat memisahkan bagian keyboard dengan layarnya yang menjadikan laptop terlihat seperti sebuah tablet keren. Laptop keren ini memiliki keunggulan dalam kamera di bagian belakangnya yang cukup bagus untuk digunakan berfoto. Resolusi kameranya sendiri sekitar 5 MP dimana kamu dapat menjadikan laptop sebagai tablet, kemudian berfoto di dalamnya. Terdapat pula sebuah sistem Dolby dalam bagian audio laptop tersebut yang dapat mengatur suara dari speaker secara otomatis. Dengan adanya sistem tersebut, kamu dapat menonton video dengan suara yang lebih nyaman ketika mendengarkannya dari speaker."
+      },
+      {
+        "id": 7,
+        "name": "ASUS VivoBook M415DA",
+        "image": "https://www.yatekno.com/wp-content/uploads/2020/12/ASUS-VivoBook-14-M415DA-Yatekno.jpg",
+        "harga": "Rp. 6,9 jutaan",
+        "spec": {
+            "Layar": "IPS 14 inci, resolusi 1920 x 1080 piksel",
+            "Prosesor": "AMD Ryzen 3 3250U",
+            "Grafis": "AMD Radeon Vega Graphics",
+            "RAM": "8GB DDR4",
+            "Penyimpanan": "256GB SSD"
+        },
+        "desc": "Laptop yang satu ini hadir dengan tampilan Window 10 yang sudah terpasang secara otomatis di dalamnya. Bahkan, laptop tersebut juga dilengkapi dengan Microsoft Office 2019 sehingga sangat cocok digunakan oleh kalangan pelajar atau mahasiswa. Selain itu, terdapat pula sebuah fitur fast charging dalam baterainya dimana kamu hanya perlu menunggu selama 50 menit saja untuk memperoleh daya hingga 60%. Fitur ini tentunya sangat disukai oleh kamu yang rutin melakukan berbagai aktivitas secara online. Laptop tersebut memiliki ukuran layar sekitar 14 inci yang telah dilengkapi dengan sebuah sistem bernama Asus Splendid. Sistem tersebut dapat mempertajam berbagai tampilan serta menjadikan warna layar jauh lebih jelas ketika digunakan."
+      },
+      {
+        "id": 8,
+        "name": "ASUS VivoBook M413IA",
+        "image": "https://www.yatekno.com/wp-content/uploads/2021/04/ASUS-VivoBook-M413IA.jpg",
+        "harga": "Rp. 8,5 jutaan",
+        "spec": {
+            "Layar": "IPS 14 inci, resolusi 1920 x 1080 piksel",
+            "Prosesor": "AMD Ryzen 3 4300U",
+            "Grafis": "AMD Radeon Graphics",
+            "RAM": "8GB DDR4",
+            "Penyimpanan": "512GB SSD"
+        },
+        "desc": "Laptop Terbaru ini memiliki keunggulan dalam layarnya karena sudah menggunakan sistem LCD LED. Selain itu, layarnya juga memiliki ukuran lebar 1080 x 1920 pixel yang telah dilengkapi sistem Full HD sehingga tampilannya jauh lebih jernih dan berkualitas. Laptop yang satu ini juga telah dilengkapi dengan sebuah filter unggulan bernama Asus Eye Care Protection di dalamnya. Filter ini dapat menghilangkan efek mata lelah pada para penggunanya setelah memakai laptop tersebut sehingga kamu akan merasa lebih nyaman. Selain itu, laptop ini telah memasang tampilan Window 10 sehingga kamu tidak perlu melakukan upgrade untuk memiliki sistem terbaru. Desainnya juga cukup bagus karena terdapat tombol enter berwarna kuning yang terlihat lebih menarik."
+      },
+      {
+        "id": 9,
+        "name": "DELL Inspiron 15-5505",
+        "image": "https://www.yatekno.com/wp-content/uploads/2021/04/DELL-Inspiron-15-5505.jpg",
+        "harga": "Rp. 9,6 jutaan",
+        "spec": {
+            "Layar": "IPS 15.6 inci, resolusi 1920 x 1080 piksel",
+            "Prosesor": "AMD Ryzen 5-4500U",
+            "Grafis": "AMD Radeon Graphics",
+            "RAM": "8GB DDR4",
+            "Penyimpanan": "256GB SSD"
+        },
+        "desc": "Laptop yang satu ini memiliki Microsoft Office 2019 sehingga banyak diminati oleh kalangan pelajar karena dapat membantu dalam menyelesaikan berbagai tugas. Terlebih lagi laptop ini telah dibekali dengan sistem Window 10 yang menghadirkan berbagai fitur terbaru. Selain itu, layarnya juga memiliki lebar sekitar 14 inci yang akan membuat kamu lebih nyaman ketika menonton video atau bermain game di dalamnya. Laptop ini bahkan memiliki kecerahan hingga 220 nits yang dapat menghasilkan tampilan lebih jernih ketika menggunakannya."
+      },
+      {
+        "id": 10,
+        "name": "ASUS ZenBook UX425EA",
+        "image": "https://www.yatekno.com/wp-content/uploads/2020/12/ASUS-ZenBook-14-UX425EA-Yatekno.jpg",
+        "harga": "Rp. 13,4 jutaan",
+        "spec": {
+            "Layar": "IPS 14 inci, resolusi 1920 x 1080 piksel",
+            "Prosesor": "Intel Core i5-1135G7",
+            "Grafis": "Intel Iris Xe Graphics",
+            "RAM": "8GB DDR4",
+            "Penyimpanan": "512GB SSD"
+        },
+        "desc": "Laptop ini hadir dengan ukuran layar selebar 14 inci yang dilengkapi sistem LCD LED di dalamnya. Layar laptop ini juga dapat memberikan kecerahan hingga 300 nits sehingga laptop masih memiliki tampilan jelas meskipun digunakan di tempat yang terang. Selain itu, terdapat pula sebuah teknologi bernama Four Sided Nano Edge yang dilengkapi Screen To Body Ratio di dalam laptop tersebut. Sistem ini dapat mengubah dimensi menjadi lebih ringkas yang akan memudahkan kamu ketika menggunakan laptop tersebut."
+      },
+      {
+        "id": 11,
+        "name": "MSI MODERN 14 B4MW",
+        "image": "https://www.yatekno.com/wp-content/uploads/2021/04/MSI-MODERN-14-B4MW.jpg",
+        "harga": "Rp. 8,7 jutaan",
+        "spec": {
+            "Layar": "IPS 14 inci, resolusi 1920 x 1080 piksel",
+            "Prosesor": "AMD Ryzen 3-4300U",
+            "Grafis": "AMD Radeon Graphics",
+            "RAM": "8GB DDR4",
+            "Penyimpanan": "512GB SSD"
+        },
+        "desc": "Laptop urutan terakhir ini juga memiliki keunggulan karena tersedianya sistem Window 10 secara otomatis yang memiliki banyak fitur terbaru di dalamnya. Laptop yang satu ini hadir dengan tampilan warna yang terlihat lebih elegan bernama Carbon Gray. Laptop Terbaru ini bahkan sudah memenuhi standar militer bernama MIL-STD-810G. Standar tersebut merupakan sebuah uji ketahanan terhadap laptop agar dapat digunakan dalam suhu ekstrem. Laptop tersebut bahkan dapat bertahan meskipun terkena getaran atau terjatuh."
+      },
+      {
+        "id": 12,
+        "name": "Lenovo ThinkBook 14 G2",
+        "image": "https://www.yatekno.com/wp-content/uploads/2020/12/Lenovo-Think-14-G2-Yatekno-300x300.jpg",
+        "harga": "Rp. 7,8 jutaan",
+        "spec": {
+            "Layar": "IPS 14 inci, resolusi 1920 x 1080 piksel",
+            "Prosesor": "AMD Ryzen 3 4300U",
+            "Grafis": "AMD Radeon Graphics",
+            "RAM": "4GB DDR4",
+            "Penyimpanan": "256GB SSD"
+        },
+        "desc": "Laptop keluaran terbaru selanjutnya ada seri Lenovo ThinkBook 14 G2. Laptop dengan layar 14 inci ini sudah memiliki resolusi layar Full HD. Dukungan Anti-glare juga sudah diberikan, tidak ketinggalan keyboard backlit. Untuk performanya, Lenovo mempercayakan prosesor AMD Ryzen 3 4300U yang diperkuat dengan RAM 4GB 3200 MHz. Kamu juga bisa meningkatkan RAM nya hingga 36GB. Dengan dukungan SSD 256GB, semakin membuat laptop ini handal untuk komputasi agak berat, sebut saja seperti desain grafis, edit video, hingga bermain game eSport sekelas Dota 2."
+      }
+    ]
+  }
