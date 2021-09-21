@@ -28,6 +28,7 @@ const DeskripsiContext = createContext();
 export default function Laptop()  {
     const [laptop, setLaptop] = useState([]);
     const [merk, setMerk] = useState('');
+    const [spek, setSpek] = useState([]);
     const [deskripsi, setDeskripsi] = useState([]);
     const [open, setOpen] = useState(false);
     const handleClose = () => setOpen(false);
@@ -67,7 +68,7 @@ export default function Laptop()  {
                                     image={results.image}
                                     alt={results.name}
                                 />
-                                <CardActionArea onClick={() => {setOpen(true); setDeskripsi(results.desc); setMerk(results.name)}}>
+                                <CardActionArea onClick={() => {setOpen(true); setDeskripsi(results.desc); setMerk(results.name); setSpek(results.spec)}}>
                                     <CardContent style={{ backgroundColor: '#efefff', height: "120px" }}>
                                         <Typography variant="h6">{results.name}</Typography>
                                         <Typography variant="body2">Harga: {results.harga}​​​​​​</Typography>
@@ -79,7 +80,7 @@ export default function Laptop()  {
                     );
                 })}
             </Grid>
-            <DeskripsiContext.Provider value={{desc:deskripsi, name: merk}}>
+            <DeskripsiContext.Provider value={{desc:deskripsi, name: merk, spec: spek}}>
                 <div>
                     <Modal
                         open={open}
@@ -101,6 +102,21 @@ function Deskripsi() {
         <Box sx={style}>
             <Typography id="modal-modal-title" variant="h6" component="h2">
                 {info.name}
+            </Typography>
+            <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                Layar: {info.spec.Layar}
+            </Typography>
+            <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                Prosesor: {info.spec.Prosesor}
+            </Typography>
+            <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                Grafis: {info.spec.Grafis}
+            </Typography>
+            <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                RAM: {info.spec.RAM}
+            </Typography>
+            <Typography id="modal-modal-description" sx={{ mt: 1 }}>
+                Penyimpanan: {info.spec.Penyimpanan}
             </Typography>
             <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                 {info.desc}
