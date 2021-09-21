@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext, createContext } from "react";
 import axios from "axios";
 import AppBar from "@mui/material/AppBar";
+import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
@@ -26,10 +27,11 @@ const DeskripsiContext = createContext();
 
 export default function Laptop()  {
     const [laptop, setLaptop] = useState([]);
-    const [deskripsi, setDeskripsi] = useState([laptop.deskripsi]);
+    const [merk, setMerk] = useState('');
+    const [deskripsi, setDeskripsi] = useState([]);
     const [open, setOpen] = useState(false);
-    const desc = useContext(DeskripsiContext);
     const handleClose = () => setOpen(false);
+
     useEffect(() => {
         axios({
             method: "get",
@@ -40,7 +42,6 @@ export default function Laptop()  {
         })
         
         .then((data) => {
-            console.log(data.data);
             setLaptop(data.data);
         })
         
@@ -59,17 +60,18 @@ export default function Laptop()  {
                 {laptop.map((results) => {
                     return (
                         <Grid item key={results.name} md={3}>
-                            <Card>
+                            <Card variant="outlined">
                                 <CardMedia
                                     component="img"
+                                    height="250"
                                     image={results.image}
                                     alt={results.name}
                                 />
-                                <CardActionArea onClick={() => {setOpen(true)}}>
-                                    <CardContent style={{ backgroundColor: '#dff8ef' }}>
-                                        <Typography>Name: {results.name}</Typography>
-                                        <Typography>Harga: {results.harga}​​​​​​</Typography>
-                                        <Typography>Spesifikasi: {results.spec.Layar}​​​​​​</Typography>
+                                <CardActionArea onClick={() => {setOpen(true); setDeskripsi(results.desc); setMerk(results.name)}}>
+                                    <CardContent style={{ backgroundColor: '#efefff', height: "120px" }}>
+                                        <Typography variant="h6">{results.name}</Typography>
+                                        <Typography variant="body2">Harga: {results.harga}​​​​​​</Typography>
+                                        <Button size="small">Detail</Button>
                                     </CardContent>
                                 </CardActionArea>
                             </Card>
@@ -77,7 +79,7 @@ export default function Laptop()  {
                     );
                 })}
             </Grid>
-            <DeskripsiContext.Provider value={deskripsi}>
+            <DeskripsiContext.Provider value={{desc:deskripsi, name: merk}}>
                 <div>
                     <Modal
                         open={open}
@@ -85,28 +87,24 @@ export default function Laptop()  {
                         aria-labelledby="modal-modal-title"
                         aria-describedby="modal-modal-description"
                     >
-                        <Box sx={style}>
-                            <Typography id="modal-modal-title" variant="h6" component="h2">
-                                Deskripsi Laptop
-                            </Typography>
-                            <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                                Coba dulu modalnya
-                                {/* {desc.map((spek) => {
-                                    return (
-                                        <div>
-                                            <p>{spek.Layar}</p>
-                                            <p>{spek.Prosesor}</p>
-                                            <p>{spek.Grafis}</p>
-                                            <p>{spek.RAM}</p>
-                                            <p>{spek.Penyimpanan}</p>
-                                        </div>          
-                                    );
-                                })} */}
-                            </Typography>
-                        </Box>
+                    <Deskripsi/>    
                     </Modal>
                 </div>
             </DeskripsiContext.Provider>
         </div>
+    );
+}
+
+function Deskripsi() {
+    const info = useContext(DeskripsiContext);
+    return (
+        <Box sx={style}>
+            <Typography id="modal-modal-title" variant="h6" component="h2">
+                {info.name}
+            </Typography>
+            <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                {info.desc}
+            </Typography>
+        </Box>
     );
 }
